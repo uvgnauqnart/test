@@ -1,0 +1,18 @@
+:root {
+    --text-color: blue;
+}
+h1{
+    color: var(--text-color);
+}
+:root{
+    --textt-color: rgb(180, 187, 180);
+}
+button{
+    background-color: var(--textt-color);
+    font: 200;
+}
+p::selection{
+    background-color: rgb(150, 111, 79);
+    font: 100;
+    color: rgb(55, 155, 158);
+}
